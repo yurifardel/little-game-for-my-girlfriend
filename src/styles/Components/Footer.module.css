@@ -1,3 +1,13 @@
 .container{
-  background: yellow;
+  background: black;
+  display: flex;
+  width: 100%;
+  height: 17rem;
+  border-top: #8d26d1 solid;
+
+}
+
+.container a{
+  display: flex;
+  align-items: center;
 }

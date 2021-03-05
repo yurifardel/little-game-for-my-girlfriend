@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import { Footer } from '../components/Footer';
 import { MainComponent } from '../components/Main';
+import styles from '../styles/pages/Home.module.css';
+
 
 export default function Main(){
   return(
@@ -10,7 +12,7 @@ export default function Main(){
       </Head>
 
 
-      <section>
+      <section className={styles.sectionContent}>
       < MainComponent/>
       </section>
         

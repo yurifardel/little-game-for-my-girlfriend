@@ -1,3 +1,79 @@
 .container{
-  background: red;
+  background: var(--background);
+  font-family: 'Kaushan Script', cursive;
+  max-width:1200px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 2.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.container h1{
+  color: #8d26d1;
+  font-size: 4rem;
+  padding-right: 10rem;
+}
+
+.container p{
+  font-size: 1.3rem;
+  margin-top: 2rem ;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container button{
+  width: 20rem;
+  margin-top: 6rem;
+  background: var(--green);
+  border-radius: 2rem;
+  padding: 1rem;
+  outline: 0;
+  
+  transition: 1s;
+}
+
+.container button:not(:disabled):hover{
+  background: #05951f;
+
+}
+
+@media (max-width: 824px){
+  .container button {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #300f40;
+    border-radius: 0;
+    border: 0;
+    text-align: center;
+    color: var(--white);
+    opacity: 0.8;
+  }
+
+  .container button:hover{
+    color: black;
+    transition: 1s;
+    opacity: 1;
+  }
+}
+
+@media (max-width: 650px ){
+  .container{
+    align-items: center;
+    position: absolute;
+    
+  }
+
+  .container h1{
+   padding: 8rem;
+  }
+
+  .container p{
+    position: absolute;
+    top: 2rem;
+  }
+  
 }
