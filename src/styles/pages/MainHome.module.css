@@ -1,7 +1,7 @@
 .container{
   background: var(--background);
-  font-family: 'Kaushan Script', cursive;
-  max-width:1200px;
+  font-family: 'Stick', cursive;
+  max-width: 1200px;
   height: 100vh;
   margin: 0 auto;
   padding: 2.5rem 2rem;
@@ -38,7 +38,7 @@
 
 }
 
-@media (max-width: 824px){
+@media (max-width: 900px){
   .container button {
     width: 100%;
     position: fixed;
@@ -60,7 +60,7 @@
   }
 }
 
-@media (max-width: 650px ){
+@media (max-width: 727px ){
   .container{
     align-items: center;
     position: absolute;
@@ -69,6 +69,7 @@
 
   .container h1{
    padding: 8rem;
+   text-align: center;
   }
 
   .container p{
