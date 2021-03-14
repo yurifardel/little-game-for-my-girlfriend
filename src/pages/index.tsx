@@ -8,25 +8,27 @@ export default function Main(){
     <>
       <Head>
         <title>Home</title>
-        <link rel="preconnect" href="https://fonts.gstatic.com"/>
-        <link href="https://fonts.googleapis.com/css2?family=Stick&display=swap" rel="stylesheet"/>
+        
       </Head>
 
 
       <section className={styles.sectionContent}>
       <div className={styles.container}>
         <h1>
-          this is a game of right or wrong answers, 
-          to know how much you love me
+          Seu questionário de conhecimento
         </h1>
         
         <p>
-          good luck 
+          O quanto você conhece o seu namorado e a sua relação com ele.
+          
         </p>
 
         <Link href='/game'>
           <button>
-              <strong>To play</strong>
+            <span>
+              <img src="icons/arrow-left.svg" alt=""/>
+            </span>
+            <h4>Clique para começar!</h4>
           </button>
         </Link>
           

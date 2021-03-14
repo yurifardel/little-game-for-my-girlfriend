@@ -1,6 +1,9 @@
 .container{
-  background: var(--background);
-  font-family: 'Stick', cursive;
+  background: url('../../../public/images/back-image.jpg') no-repeat;
+  
+  height: 100vh;
+  background-position: 45vw bottom;
+  
   max-width: 1200px;
   height: 100vh;
   margin: 0 auto;
@@ -11,30 +14,55 @@
 }
 
 .container h1{
-  color: #8d26d1;
-  font-size: 4rem;
-  padding-right: 10rem;
+  color: #000;
+  font-size: 3.5rem;
+  max-width: 500px;
+  display: flex;
+  margin-top: 5rem;
 }
 
 .container p{
+  max-width: 500px;
   font-size: 1.3rem;
   margin-top: 2rem ;
+  display: flex;
+  flex-direction: column;
   font-family: 'Roboto', sans-serif;
 }
 
+.container button span img{
+ display: flex;
+ position: relative;
+ top: 4px;
+ left: 1rem;
+}
+
+.container button h4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  color: white;
+  position: relative;
+  bottom: 1rem;
+  left: 1rem;
+  
+}
+
+
 .container button{
   width: 20rem;
-  margin-top: 6rem;
-  background: var(--green);
-  border-radius: 2rem;
+  margin-top: 4rem;
+  background: #449aeb;
+  border-radius: 0.6rem;
   padding: 1rem;
-  outline: 0;
-  
+  outline: none;
+  border: 0;
   transition: 1s;
 }
 
 .container button:not(:disabled):hover{
-  background: #05951f;
+  background: #478ccc;
 
 }
 
