@@ -16,10 +16,10 @@ export default function Home() {
       <section className={styles.sectionContent}>
         <div className={styles.container}>
           <h1>
-            Test your knowledge
+            Almost before we knew it, we had left the ground.
           </h1>
 
-          <p>About how much you know about our relationship!</p>
+          <p>Almost before we knew it, we had left the ground.</p>
 
           <Link href="./inicialPlay">
             <button>

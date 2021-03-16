@@ -55,7 +55,7 @@
 
 .container button{
   width: 20rem;
-  margin-top: 4rem;
+  margin-top: 2rem;
   background: var(--blue-twitter);
   border-radius: 0.6rem;
   padding: 1rem;
@@ -71,7 +71,7 @@
 
 @media (max-width: 900px){
   .container button {
-    /* width: 100%;
+    width: 100%;
     position: fixed;
     left: 0;
     right: 0;
@@ -80,9 +80,9 @@
     border-radius: 0;
     border: 0;
     text-align: center;
-    color: var(--white); */
+    color: var(--white);
     /* opacity: 0.8; */
-    margin: 7.5rem auto;
+    /* margin: 7.5rem auto; */
   }
 
   .container button:hover{
