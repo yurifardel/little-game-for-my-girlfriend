@@ -14,11 +14,13 @@
 }
 
 .container h1{
-  color: #000;
+  color: var(--blue-twitter);
   font-size: 3.5rem;
   max-width: 500px;
   display: flex;
   margin-top: 5rem;
+  font-family: 'Syncopate', sans-serif;
+  
 }
 
 .container p{
@@ -27,7 +29,8 @@
   margin-top: 2rem ;
   display: flex;
   flex-direction: column;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Tajawal', sans-serif;
+
 }
 
 .container button span img{
@@ -53,7 +56,7 @@
 .container button{
   width: 20rem;
   margin-top: 4rem;
-  background: #449aeb;
+  background: var(--blue-twitter);
   border-radius: 0.6rem;
   padding: 1rem;
   outline: none;

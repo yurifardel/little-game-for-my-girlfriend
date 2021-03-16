@@ -10,11 +10,14 @@ export default function Home() {
     <>
       <Head>
         <title>Home</title>
+        
       </Head>
 
       <section className={styles.sectionContent}>
         <div className={styles.container}>
-          <h1>Test your knowledge</h1>
+          <h1>
+            Test your knowledge
+          </h1>
 
           <p>About how much you know about our relationship!</p>
 
