@@ -1,4 +1,4 @@
-.container{
+.container {
   background: black;
   display: flex;
   width: 100%;
@@ -7,18 +7,18 @@
   flex-direction: column;
 }
 
-.container a{
+.container a {
   display: flex;
   align-items: center;
   margin: 7rem auto;
   transition: 0.35s;
 }
 
-.container a:not(:disabled):hover{
+.container a:not(:disabled):hover {
   color: var(--white);
 }
 
-.container p{
+.container p {
   text-align: center;
   margin: 0 auto;
 }

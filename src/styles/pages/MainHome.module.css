@@ -73,36 +73,33 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #300f40;
+    background: #185894;
     border-radius: 0;
     border: 0;
     text-align: center;
     color: var(--white);
-    opacity: 0.8;
+    /* opacity: 0.8; */
   }
 
   .container button:hover{
     color: black;
     transition: 1s;
-    opacity: 1;
+    /* opacity: 1; */
   }
 }
 
-@media (max-width: 727px ){
+@media (max-width: 730px ){
   .container{
-    align-items: center;
-    position: absolute;
-    
+    background-position: center;
   }
-
+  
   .container h1{
-   padding: 8rem;
-   text-align: center;
+   /* padding: 8rem; */
+   display: flex;
   }
 
   .container p{
-    position: absolute;
-    top: 2rem;
+   display: flex;
   }
   
 }

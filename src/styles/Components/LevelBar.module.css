@@ -1,0 +1,33 @@
+.headerBar {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1100px;
+  position: relative;
+  top: 1rem;
+}
+
+.headerBar > span {
+  font-size: 1rem;
+}
+
+.headerBar > div {
+  flex: 1;
+  height: 4px;
+  border-radius: 4px;
+  background: var(--gray-line);
+  margin: 0 1.5rem;
+  position: relative;
+}
+
+.headerBar > div > div {
+  height: 4px;
+  border-radius: 2rem;
+  background: var(--green);
+}
+
+span.currentBar {
+  position: absolute;
+  top: 12px;
+  transform: translateX(-50%);
+}
