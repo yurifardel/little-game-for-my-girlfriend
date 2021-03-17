@@ -1,11 +1,21 @@
+import { CompletedChallenges } from '../components/CompletedChallenges';
+import { Countdown } from '../components/Countdown';
 import { LevelBar } from '../components/LevelBar';
-import styles from '../styles/Components/LevelBar.module.css';
+import { Perfil } from '../components/Perfil';
 
-export default function IncialPlay(){
-  return(
+import styles from '../styles/pages/inicialPlay.module.css';
+
+export default function IncialPlay() {
+  return (
     <div className={styles.container}>
       <LevelBar />
+      <section>
+        <div>
+          <Perfil />
+          <CompletedChallenges />
+          <Countdown />
+        </div>
+      </section>
     </div>
-     
-  )
+  );
 }

@@ -1,5 +1,6 @@
 import styles from '../styles/Components/LevelBar.module.css';
 
+
 export function LevelBar() {
   return (
     <header className={styles.headerBar}>

@@ -16,10 +16,12 @@ export default function Home() {
       <section className={styles.sectionContent}>
         <div className={styles.container}>
           <h1>
-            Almost before we knew it, we had left the ground.
+            Almost before we knew it.
           </h1>
 
-          <p>Almost before we knew it, we had left the ground.</p>
+          <p>
+            Almost before we knew it, we had left the ground.
+          </p>
 
           <Link href="./inicialPlay">
             <button>
