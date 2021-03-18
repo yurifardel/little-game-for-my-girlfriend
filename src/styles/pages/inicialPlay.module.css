@@ -1,6 +1,7 @@
 .container{
-  height: 100vh;
+  height: 100%;
   max-width: 1200px;
+  max-height: 800px; 
   height: 100vh;
   margin: 0 auto;
   padding: 1rem 2rem;
@@ -8,3 +9,11 @@
 
 }
 
+.container section{
+  flex: 1;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  align-items: center;
+}
