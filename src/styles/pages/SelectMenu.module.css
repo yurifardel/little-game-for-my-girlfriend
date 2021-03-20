@@ -1,0 +1,26 @@
+.SelectMenuContainer{
+  height: 100vh;
+  background: red;
+  max-width: 992px;
+  margin: 0 auto;
+  padding: 2.5rem 2rem;
+
+  display: flex;
+  flex-direction: column;
+  background: var(--background);
+}
+
+.SelectMenuContent{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ margin: 0 auto;
+ flex-direction: column;
+}
+
+.SelectMenuOptions{
+  display: flex;
+  
+  position: relative;
+  top: 8.70rem;
+}
