@@ -17,7 +17,7 @@ export function ChallengeBox() {
 
   function handleChallengeFailed() {
     resetChallenge();
-    resetCountdown;
+    resetCountdown();
   }
 
   return (
@@ -27,8 +27,8 @@ export function ChallengeBox() {
           <header>Ganhe {activeChallenge.amount} xp</header>
 
           <main>
-            <img src="./icons/body.svg" alt="" />
-            <strong>Novo Desafio</strong>
+            {/* <img src="./icons/body.svg" alt="" /> */}
+            <strong>Nova pergunta</strong>
             <p>{activeChallenge.description}</p>
           </main>
 
@@ -52,10 +52,10 @@ export function ChallengeBox() {
         </div>
       ) : (
         <div className={styles.challengeNotActive}>
-          <strong>Finalize um cilco para receber um desafio</strong>
+          <strong>Eleve seu nivel</strong>
           <p>
             <img src="icons/level-up.svg" alt="Level Up" />
-            Avance de level acertando as perguntas.
+            <p>Inicie um ciclo</p>
           </p>
         </div>
       )}

@@ -80,3 +80,30 @@
   color: var(--text);
   cursor: not-allowed;
 }
+
+.ContainerButton{
+  display: flex;
+  gap: 1rem;
+}
+
+.RestartButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 5rem;
+  height: 5rem;
+
+  position: relative;
+  top: 3rem;
+  border-radius: 4px;
+  background: var(--blue);
+  border: none;
+  transition: 0.08;
+  color: white;
+  font-weight: 500;
+}
+
+.RestartButton:hover{
+  background: var(--blue-dark);
+}

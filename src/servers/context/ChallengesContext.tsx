@@ -88,6 +88,7 @@ export function ChallengeProvider({
         startNewChallenge,
         resetChallenge,
         completeChallenge,
+        
       }}
     >
       {children}
