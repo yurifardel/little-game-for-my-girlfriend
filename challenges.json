@@ -1,32 +1,8 @@
 [
   {
-    "type": "body",
-    "description": "Aonde foi o nosso primeiro beijo?",
+    "type": "",
+    "description": "",
     "amount": 80
-  },
-  {
-    "type": "body",
-    "description": "Aonde foi a nossa primeira transa?",
-    "amount": 60
-  },
-  {
-    "type": "body",
-    "description": "Quem disse eu te amo primeiro?",
-    "amount": 70
-  },
-  {
-    "type": "body",
-    "description": "Quem se apaixonou primeiro?",
-    "amount": 60
-  },
-  {
-    "type": "body",
-    "description": "Quem se declarou primeiro?",
-    "amount": 100
-  },
-  {
-    "type": "body",
-    "description": "Quem é mais safado?",
-    "amount": 80
-  }  
+  }
+  
 ]
