@@ -23,7 +23,7 @@ export default function Home() {
             Almost before we knew it, we had left the ground.
           </p>
 
-          <Link href="/game">
+          <Link href="/inicialPlay">
             <button>
               <span>
                 <img src="icons/arrow-left.svg" alt="" />

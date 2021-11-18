@@ -1,6 +1,11 @@
 import '../styles/globals.css';
 
-function MyApp({ Component, pageProps }) {
+type sut = {
+  Component: (p: object) => any
+  pageProp: []
+}
+
+const MyApp: React.FC<sut> = ({Component, ...pageProps}) => {
   return <Component {...pageProps} />;
 }
 
