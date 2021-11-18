@@ -1,7 +1,17 @@
 [
   {
-    "type": "",
-    "description": "",
+    "type": "any_type",
+    "description": "any_description",
+    "amount": 80
+  },
+  {
+    "type": "any_type",
+    "description": "any_description",
+    "amount": 80
+  },
+  {
+    "type": "any_type",
+    "description": "any_description",
     "amount": 80
   }
 ]
