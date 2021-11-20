@@ -12,7 +12,7 @@ interface ChallengesContextData {
   level: number;
   currentExperience: number;
   challengeCompleted: number;
-  activeChallenge: challenge;
+  activeChallenge: challenge | null;
   experienceToNextLevel: number;
   levelUp: () => void;
   startNewChallenge: () => void;
@@ -53,7 +53,7 @@ export function ChallengeProvider({
 
   function startNewChallenge() {
     const randomChallengeIndex = Math.floor(Math.random() * challenges.length);
-    const challenge = challenges[randomChallengeIndex];
+    const challenge: any = challenges[randomChallengeIndex];
 
     setActiveChallenge(challenge);
   }

@@ -1,17 +1,28 @@
 [
   {
-    "type": "any_type",
-    "description": "any_description",
+    "type": "body",
+    "description": "Alongar o corpo",
     "amount": 80
   },
   {
-    "type": "any_type",
-    "description": "any_description",
-    "amount": 80
+    "type": "body",
+    "description": "Alongar o corpo",
+    "amount": 50
   },
   {
-    "type": "any_type",
-    "description": "any_description",
-    "amount": 80
+    "type": "body",
+    "description": "Alongar o corpo",
+    "amount": 70
+  },
+  {
+    "type": "body",
+    "description": "Alongar o corpo",
+    "amount": 90
+  },
+  {
+    "type": "body",
+    "description": "Alongar o corpo",
+    "amount": 30
   }
+
 ]
